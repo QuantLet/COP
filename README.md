@@ -1,2 +1,2 @@
-# Copula
+# Copulae
 Project of Prof. Okhrin, Simon Trimborn and Yafei.
