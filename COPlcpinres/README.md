@@ -1,175 +1,46 @@
 
 [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="880" alt="Visit QuantNet">](http://quantlet.de/index.php?p=info)
 
-## [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **COPlcpinres** [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/d3/ia)
+## [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **COPlcpinres* [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/d3/ia)
 
 ```yaml
 
-Name of Quantlet: COPlcpinres
- 
-Published in: Copulae
+Name of Quantlet : COPlcpinres
 
-Description: 'COPlcpinres computes from the results of fitting a Aparch(1,1) model to daily returns, see COPlcpinaparch, when which copula fits the data best. Used are Gumbel and Clayton copula.'
-  
-Keywords: HAC, clayton, gumbel, aparch, daily, returns
+Published in : Basic Elements of Computational Statistics
 
-See also: COPlcpeinaparch, COPlcpexVaR, COPlcpexgarch, COPlcpexres, COPlcpinVaR
+Description : This Quantlet produces a plot showing the acceptance rejection method for pseudo genrated random variable. It is used to consider whether an observation belongs to one or another distribution.
 
-Author: Ostap Okhrin, Simon Trimborn
+Keywords : accepatence region, pseudo generated, random, plot, distribution
 
-Datafile: 'COPts2AClayton.dat, COPts2AGumbel.dat, COPts2dates.dat, COPts2eps.dat, COPts2parameters.dat, COPts2sigmat.dat, cop_timeseries_2.dat'
+Author[New] : Martin Schelisch
 
-Submitted: Wed, October 08 2014 by Felix Jung
-
-Input: 
-     
-Output:  'The Quantlet returns plots which show the structure, the taus on the intervals of homogeneity, the intervals of homogeneity and the ML on these intervals.'
-
-Example: 
+Submitted : 2016-01-28, Christoph Schult
 
 ```
 
+![Picture1](BCS_ARM.png)
+
 
 ```r
-rm(list=ls(all=TRUE))
+# create data to plot
+x = seq(0, 3, 0.01)
+z = dnorm(seq(0, 3, 0.01))
+y = dexp(seq(0, 3, 0.01))
 
-# install.packages("fGarch")
-# install.packages("copula")
-library(fGarch)
-library(copula)
+plot(z, type = "l", lwd = 2, ylim = c(0, 1), main = "Acceptance-Rejection Method", xlab = "", ylab = "Density")
 
-GAUSS      = "gauss"
-GUMBELHAC  = "gumbelHAC"
-GUMBELAC   = "gumbelAC"
-CLAYTONHAC = "claytonHAC"
-CLAYTONAC  = "claytonAC"
+# shaded areas to illustrate the accepatence and rejection region
+polygon(c(x * 100, 300, 0), c(y, 0, 0), col = "lightgrey", border = "white", fillOddEven = T)
+polygon(c(x * 100, 300, 0), c(z, 0, 0), col = "white", border = "white")
 
-source("COPhelperfunctions.R")
+# borders of regions
+lines(z, type = "l", lwd = 2, col = "blue3")
+lines(y, type = "l", lwd = 2, col = "red3")
 
-dates = read.table("COPts1dates")
-dates = as.matrix(dates)
-feps  = read.table("COPts1feps")
-
-
-################## LCP ############################
-taus   = c(0.1, 0.3, 0.5, 0.7)
-m0LCP  = 40
-cLCP   = 1.25
-Ak_max = 10
-r      = 0.5
-rho    = 0.5
-
-conv.str = function(st){
-  if(st == "((1.2).3)"){
-    a = 1
-  }
-  if(st == "((1.3).2)"){
-    a = 2
-  }
-  if(st == "((2.3).1)"){
-    a = 3
-    }
-  a}
-
-get.str = function(st){
-  if(st == 1){
-    a = "((1.2).3)"
-  }
-  if(st == 2){
-    a = "((1.3).2)"
-  }
-  if(st == 3){
-    a = "((2.3).1)"
-    }
-  a}
-
-skip = round(m0LCP * cLCP^(Ak_max + 1)) + 1
-
-#### LCP for Gumbel
-copula.in.use = "gumbel"
-Gu            = feps
-samplesize    = dim(Gu)[1]
-qx            = read.table("COPgumbel")
-AGumbel       = make.crit.val(u = Gu, copula_typeL = copula.in.use)
-#### LCP for Clayton
-copula.in.use = "clayton"
-Gu            = feps
-samplesize    = dim(Gu)[1]
-qx            = read.table("COPclayton")
-AClayton      = make.crit.val(u = Gu, copula_typeL = copula.in.use)
- 
-# derivation sigma_tau
-give.sigma.tau = function(A, copula.in.use){
-  sigma_tau    = 0
-  for(step in 1:dim(A)[1]){
-    Lfeps = feps[(skip + step - A[step, 1] + 1):(skip + step),]
-    pair = if(A[step, 2] == 1){
-      c(1, 2)
-    } else if(A[step, 2] == 2){
-      c(1, 3)
-    } else if(A[step, 2] == 3){
-      c(2, 3)
-    }
-    sigma_tau2 = sqrt(abs(16 * var(2 * emp.copula.self.2d(Lfeps[, pair]) - 
-      Lfeps[, pair[1]] - Lfeps[, pair[2]]))) / sqrt(A[step, 1]) * z_alpha
-         Lfeps = cbind(cop2d(Lfeps[, pair[1]], Lfeps[, pair[2]], A[step, "theta2"], 
-           Ltype = copula.in.use), Lfeps[, setdiff(1:3, pair)])
-    sigma_tau1 = sqrt(abs(16 * var(2 * emp.copula.self.2d(Lfeps) - Lfeps[, 1] - 
-      Lfeps[, 2]))) / sqrt(A[step, 1]) * z_alpha
-     sigma_tau = rbind(sigma_tau, c(sigma_tau1, sigma_tau2))
-  }
-  sigma_tau = sigma_tau[-1,]
-}
-sigma_tauG = give.sigma.tau(AGumbel, "gumbel")
-sigma_tauC = give.sigma.tau(AClayton, "clayton")
-
-   labels = as.numeric(format(as.Date(dates, "%d.%m.%Y"), "%Y"))
-where.put = c(1, which(diff(labels) == 1) + 1)
-
-# Plots
-plot.COP = function(A, sigma_tau, copula.in.use){
-  dev.new()
-  layout(matrix(1:2, nrow = 2, byrow = T))
-  
-  par(mai = (c(0.0, 0.8, 0.1, 0.1) + 0.4))    
-  plot(c(0, 0), c(0, 0), xlim = c(0, length(A[, 1])), ylim = c(1, 3), xlab = "", 
-    ylab = "structure", axes = F, frame = T, cex.lab = 1.5, cex.axis = 1.2)
-  lines(A[, 2], type = "l", lwd = 3, col = "red3")
-  axis(2, at = 1:3, labels = c(get.str(1), get.str(2), get.str(3)))
-  
-  par(mai = (c(0.3, 0.8, 0.1, 0.1) + 0.4))    
-  plot(theta2tau(A[, 3], copula.in.use), ylim = c(0, 0.9), type = "l", 
-       lwd = 3, col = "blue3", lty = "solid", axes = F, frame = T, 
-       xlab = "", ylab = expression(tau), cex.lab = 1.5, cex.axis = 1.2)
-  
-  polygon(c(1:length(A[, 4]), length(A[, 4]):1), c(theta2tau(A[, 3], 
-    copula.in.use) - sigma_tau[, 2], rev(theta2tau(A[, 3], copula.in.use) + 
-    sigma_tau[, 2])), col = "grey80", border = "grey70", density = 30, angle = 45)
-  polygon(c(1:length(A[, 4]), length(A[, 4]):1), c(theta2tau(A[, 4], 
-    copula.in.use) - sigma_tau[, 1], rev(theta2tau(A[, 4], copula.in.use) + 
-    sigma_tau[, 1])), col = "grey80", border = "grey70", density = 30, angle = -45)
-  
-  lines(theta2tau(A[, 3], copula.in.use), lwd = 3, col = "blue3", lty = "solid")
-  lines(theta2tau(A[, 4], copula.in.use), lwd = 3, col = "green3", lty = "solid")
-  
-  axis(2)
-  axis(1, at = where.put, labels = labels[where.put])
-  
-  dev.new()
-  layout(matrix(1:2, nrow = 2, byrow = T))
-  par(mai = (c(0.0, 0.8, 0.1, 0.1) + 0.5))    
-  plot(A[, 1], type = "l", lwd = 3, col = "blue3", lty = "solid", axes = F, 
-    frame = T, xlab = "Date", ylab = "length", cex.lab = 1.5, cex.axis = 1.2) 
-  axis(2)         
-  
-  par(mai = (c(0.3, 0.8, 0.1, 0.1) + 0.5))    
-  plot(A[, 5], type = "l", lwd = 3, col = "red3", lty = "solid", axes = F, 
-    frame = T, xlab = "Date", ylab = "ML", cex.lab = 1.5, cex.axis = 1.2) 
-  axis(2) 
-  axis(1, at = where.put, labels = labels[where.put])   
-
-}
-
-plot.COP(AGumbel, sigma_tauG, "gumbel")
-plot.COP(AClayton, sigma_tauC, "clayton")
-...
+# add legend to plot
+text(250, 0.11, "g(x)", adj = c(0, 0), col = "red3")
+text(42, 0.32, "f(x)", adj = c(0, 1), col = "blue3")
+text(80, 0.07, "Acceptance Region")
+text(40, 0.45, "Rejection Region")
+```

@@ -1,0 +1,106 @@
+1) Check all meta infos and their format
+2) Check code for COPlcpinres
+There were 50 or more warnings (use warnings() to see the first 50)
+> warnings()
+Warnmeldungen:
+1: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+2: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+3: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+4: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+5: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+6: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+7: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+8: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+9: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+10: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+11: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+12: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+13: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+14: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+15: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+16: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+17: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+18: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+19: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+20: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+21: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+22: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+23: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+24: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+25: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+26: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+27: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+28: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+29: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+30: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+31: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+32: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+33: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+34: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+35: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+36: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+37: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+38: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+39: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+40: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+41: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+42: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+43: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+44: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+45: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+46: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+47: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+48: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+49: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+50: In if (maxtstat < qx) { ... :
+  the condition has length > 1 and only the first element will be used
+3) Check code for 
