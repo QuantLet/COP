@@ -1,0 +1,21 @@
+Name of Quantlet: COPdaxreturn
+ 
+Published in: Copulae
+
+Description: 'COPdaxreturn gives a DAX returns'' time series plot with a window from 1986-01-03 to 2008-12-30.'
+  
+Keywords: time-series, returns, DAX, plot, distribution, daily
+     
+See also: 
+
+Author: Ostap Okhrin, Yafei Xu
+
+Datafile: COPdax140624.csv
+
+Submitted: Tue, November 18 2014 by Philipp Gschoepf
+
+Input:
+     
+Output: 
+
+Example: Return series of the DAX.
