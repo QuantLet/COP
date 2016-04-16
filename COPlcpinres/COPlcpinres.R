@@ -13,9 +13,9 @@ CLAYTONAC  = "claytonAC"
 
 source("COPhelperfunctions.R")
 
-dates = read.table("COPts1dates.dat")
+dates = read.table("COPts1dates")
 dates = as.matrix(dates)
-feps  = read.table("COPts1feps.dat")
+feps  = read.table("COPts1feps")
 
 
 ################## LCP ############################
@@ -56,13 +56,13 @@ skip = round(m0LCP * cLCP^(Ak_max + 1)) + 1
 copula.in.use = "gumbel"
 Gu            = feps
 samplesize    = dim(Gu)[1]
-qx            = read.table("COPgumbel.dat")
+qx            = read.table("COPgumbel")
 AGumbel       = make.crit.val(u = Gu, copula_typeL = copula.in.use)
 #### LCP for Clayton
 copula.in.use = "clayton"
 Gu            = feps
 samplesize    = dim(Gu)[1]
-qx            = read.table("COPclayton.dat")
+qx            = read.table("COPclayton")
 AClayton      = make.crit.val(u = Gu, copula_typeL = copula.in.use)
  
 # derivation sigma_tau
