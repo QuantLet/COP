@@ -6,8 +6,7 @@ Description: 'This quantlet plots a histogram of daily DAX 30 index levels from 
   
 Keywords: histogram, plot, distribution, DAX index, daily, density
      
-See also: 
-COPdaxtimeseries, COPdensitydaxreturn
+See also: COPdaxtimeseries, COPdensitydaxreturn
 
 Author: Ostap Okhrin, Yafei Xu
 

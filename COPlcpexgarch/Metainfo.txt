@@ -2,7 +2,10 @@ Name of Quantlet: COPlcpexgarch
  
 Published in: Copulae
 
-Description: 'COPlcpexgarch fits to the daily returns of the exchange rates JPN/USD, GBP/USD and EUR/USD in the time span [4.1.1999; 14.8.2009] a Garch(1,1) model and gives back the mu, the parameters of the model, skewness and shape, Ljung-Box and the Kolmogorov-Smirnov test statistic. Also are given in the line beneath of the values the corresponding standard deviations.'
+Description: 'COPlcpexgarch fits to the daily returns of the exchange rates JPN/USD, GBP/USD and EUR/USD in the
+              time span [4.1.1999; 14.8.2009] a Garch(1,1) model and gives back the mu, the parameters of the model,
+              skewness and shape, Ljung-Box and the Kolmogorov-Smirnov test statistic. Also are given in the line
+              beneath of the values the corresponding standard deviations.'
   
 Keywords: HAC, clayton, gumbel, garch, exchange rates, returns
 
@@ -16,7 +19,9 @@ Submitted: Mon, September 15 2014 by Felix Jung
 
 Input: 
      
-Output:  'Returns a table with the estimations of the mu, the parameters of the model, skewness and shape, Ljung-Box and the Kolmogorov-Smirnov test statistic. Also are given in the line beneath of the values the corresponding standard deviations.'
+Output:  'Returns a table with the estimations of the mu, the parameters of the model, skewness and shape,
+          Ljung-Box and the Kolmogorov-Smirnov test statistic. Also are given in the line beneath of the 
+          values the corresponding standard deviations.'
 
 
 Example: see COPlcpexres

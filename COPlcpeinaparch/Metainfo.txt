@@ -2,7 +2,10 @@ Name of Quantlet: COPlcpeinaparch
  
 Published in: Copulae
 
-Description: 'COPlcpinaparch fits to the daily returns of the indices Dow Jones (DJ), DAX and NIKKEI in the time span [01.01.1985; 23.12.2010] a aparch(1,1) model and gives back the mu, the parameters of the model, skewness and shape, Ljung-Box and the Kolmogorov-Smirnov test statistic. Also are given in the line beneath of the values the corresponding standard deviations.'
+Description: 'COPlcpinaparch fits to the daily returns of the indices Dow Jones (DJ), DAX and NIKKEI in the 
+              time span [01.01.1985; 23.12.2010] a aparch(1,1) model and gives back the mu, the parameters 
+              of the model, skewness and shape, Ljung-Box and the Kolmogorov-Smirnov test statistic. Also 
+              are given in the line beneath of the values the corresponding standard deviations.'
   
 Keywords: HAC, clayton, gumbel,DAX, NIKKEI, Ljung-Box, Kolmogorov-Smirnov kendall
 

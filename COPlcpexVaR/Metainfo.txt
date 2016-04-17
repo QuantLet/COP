@@ -2,7 +2,10 @@ Name of Quantlet: COPlcpexVaR
  
 Published in: Copulae
 
-Description: 'COPlcpexVaR computes from the results of fitting a Garch(1, 1) model to daily returns, see COPlcpexgarch, and choosing the HAC model, see COPlcpexres, the profit and loss function (dots) with the 99%-VaR bound (solid line) and the time points of the exceedances (pluses).'
+Description: 'COPlcpexVaR computes from the results of fitting a Garch(1, 1) model to daily returns,
+              see COPlcpexgarch, and choosing the HAC model, see COPlcpexres, the profit and loss 
+              function (dots) with the 99%-VaR bound (solid line) and the time points of the exceedances
+              (pluses).'
   
 Keywords: HAC, clayton, gumbel, kendall, multivariate, gaussian, gauss
 
@@ -10,13 +13,16 @@ See also: COPlcpeinaparch, COPlcpexgarch, COPlcpexres, COPlcpinVaR, COPlcpinres
 
 Author: Ostap Okhrin
 
-Datafile: COPts2AClayton.dat, COPts2AGumbel.dat, COPts2dates.dat, COPts2eps.dat, COPts2parameters.dat, COPts2sigmat.dat, cop_timeseries_2
+Datafile: 'COPts2AClayton.dat, COPts2AGumbel.dat, COPts2dates.dat, COPts2eps.dat, COPts2parameters.dat,
+          COPts2sigmat.dat, cop_timeseries_2'
 
 Submitted: Tue, October 07 2014 by Felix Jung
 
 Input: 
      
-Output:  'The Quantlet returns plots which show the profit and loss function (dots) for exchange rates with the 99%-VaR bound (solid line) and the time points of the exceedances (pluses) for the HAC model with Gumbel and Clayton generators'
+Output:  'The Quantlet returns plots which show the profit and loss function (dots) for exchange rates with the 99%-VaR
+          bound (solid line) and the time points of the exceedances (pluses) for the HAC model with Gumbel and Clayton
+          generators'
 
 
 Example: see COPlcpexres
