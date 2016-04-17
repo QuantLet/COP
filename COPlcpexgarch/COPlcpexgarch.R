@@ -8,7 +8,7 @@ library(QRM)
 #setwd("C:/...")        # please change your working directory
 
 ##### prepare data
-X = read.csv("cop_timeseries_2.dat", header = T, sep = "", dec=",")
+X = read.csv("cop_timeseries_2", header = T, sep = "", dec=",")
 X = X[,-1]
 R = apply(log(X), 2, diff)
 
