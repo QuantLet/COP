@@ -11,9 +11,8 @@ See also: COPlcpeinaparch, COPlcpexVaR, COPlcpexgarch, COPlcpexres, COPlcpinVaR
 
 Author: Ostap Okhrin, Simon Trimborn
 
-Datafile: COPclayton.dat, COPgumbel.dat, COPts1dates.dat, COPts1feps.dat
-
-
+Datafile: 'COPts2AClayton.dat, COPts2AGumbel.dat, COPts2dates.dat, COPts2eps.dat, COPts2parameters.dat,
+           COPts2sigmat.dat, COP_timeseries_2.dat'
 
 Submitted: Wed, October 08 2014 by Felix Jung
 

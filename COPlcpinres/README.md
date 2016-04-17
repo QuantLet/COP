@@ -20,8 +20,6 @@ Author: Ostap Okhrin, Simon Trimborn
 
 Datafile: COPclayton.dat, COPgumbel.dat, COPts1dates.dat, COPts1feps.dat
 
-
-
 Submitted: Wed, October 08 2014 by Felix Jung
 
 Input: 
@@ -32,8 +30,6 @@ Output:  'The Quantlet returns plots which show the structure, the taus on the i
 Example:
 
 ```
-
-![Picture1](BCS_ARM.png)
 
 
 ```r
