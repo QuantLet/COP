@@ -5,7 +5,7 @@ library(copula)
 
 #setwd("C:/...")        # please change your working directory
 
-source("C:/Users/Christoph/Documents/GitHub/Copula/COPhelperfunctions/COPhelperfunctions.R")
+source("COPhelperfunctions.R")
 
 X = read.table("cop_timeseries_2", header = T, sep = "", dec=",")
 X = X[, -1]
