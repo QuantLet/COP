@@ -3,7 +3,7 @@
 library(RCurl)
 library(XML)
 
-sPathRoot = "C:/Users/Christoph/Documents/GitHub/Copula"
+sPathRoot = "C:/Users/Christoph/Documents/GitHub/Copulae"
 setwd(sPathRoot)
 # assign input (could be a html file, a URL, html text, or some combination of all three is the form of a vector)
 input = "http://quantlet.org/index.php?p=show&id=2581"

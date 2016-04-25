@@ -1,29 +1,23 @@
 Name of Quantlet: COPhac3dscatter2
  
-Published in: Copulae
+Published in:     Copulae
 
-Description: 'COPhac3dscatter2 gives samples generated from an hierarchical Archimedean copula (HAC),
-              where the red points stand for the 1100 scatter points drawn from the HAC. The generator
-              of this HAC is Gumbel and the marginals here contain the Student-t CDF for variable x1,
-              the normal CDF for x2 and the normal CDF for x3. The parameter for x1 and x3 in the first
-              hierarchy is 10 and in the second hierarchy the parameter is 2. The blue points on the 
-              vertical plane stand for the projection of the red points onto the plane x1 and x3. The 
-              blue points on the bottom plane stand for the projection of the red points onto the plane
-              x1 and x2.'
+Description:     'COPhac3dscatter2 gives samples generated from an hierarchical Archimedean copula (HAC),
+                  where the red points stand for the 1100 scatter points drawn from the HAC. The generator
+                  of this HAC is Gumbel and the marginals here contain the Student-t CDF for variable x1,
+                  the normal CDF for x2 and the normal CDF for x3. The parameter for x1 and x3 in the first
+                  hierarchy is 10 and in the second hierarchy the parameter is 2. The blue points on the 
+                  vertical plane stand for the projection of the red points onto the plane x1 and x3. The 
+                  blue points on the bottom plane stand for the projection of the red points onto the plane
+                  x1 and x2.'
   
-Keywords: HAC, copula, gumbel, scatterplot, 3D, Archimedean
+Keywords:         HAC, copula, gumbel, scatterplot, 3D, Archimedean
 
-See also: 
+Author:           Ostap Okhrin, Yafei Xu
 
-Author: Ostap Okhrin, Yafei Xu
+Datafile:         COPdax140624.csv
 
-Datafile: COPdax140624.csv
-
-Submitted: Mon, November 10 2014 by Franziska Schulz
-
-Input: 
+Submitted:        Mon, November 10 2014 by Franziska Schulz
      
-Output: 'COPhac3dscatter2 gives a 3D scatter plot with samples generated from an HAC copula.'
-
-Example: 
+Output:          'COPhac3dscatter2 gives a 3D scatter plot with samples generated from an HAC copula.'
 

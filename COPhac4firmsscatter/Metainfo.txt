@@ -1,25 +1,18 @@
 Name of Quantlet: COPhac4firmsscatter
  
-Published in: Copulae
+Published in:     Copulae
 
-Description: 'COPhac4firmsscatter gives pairwise scatterplots from ARMA-GARCH residuals provided
-              from the HAC package, including Chevron Corporation (CVX), Exxon Mobil Corporation
-              (XOM), Royal Dutch Shell (RDSA) and Total (FP) covering n = 283 observations from
-              2011-02-02 to 2012-03-19.'
+Description:     'COPhac4firmsscatter gives pairwise scatterplots from ARMA-GARCH residuals provided
+                  from the HAC package, including Chevron Corporation (CVX), Exxon Mobil Corporation
+                  (XOM), Royal Dutch Shell (RDSA) and Total (FP) covering n = 283 observations from
+                  2011-02-02 to 2012-03-19.'
   
-Keywords: correlation, scatterplot, firms, Chevron, Exxon Mobil, Royal Dutch, energy, oil
+Keywords:         correlation, scatterplot, firms, Chevron, Exxon Mobil, Royal Dutch, energy, oil
 
-See also: MMSTATlinreg, MMSTATscatterplot
+See also:         MMSTATlinreg, MMSTATscatterplot
 
-Author: Ostap Okhrin, Yafei Xu
+Author:           Ostap Okhrin, Yafei Xu
 
-Datafile: 
-
-Submitted: Tue, November 18 2014 by Franziska Schulz
-
-Input: 
+Submitted:        Tue, November 18 2014 by Franziska Schulz
      
-Output: 'The Quantlet returns pairwise scatter plots from ARMA-GARCH residuals, including CVX, FP, RDSA, XOM.'
-
-Example: 
-
+Output:          'The Quantlet returns pairwise scatter plots from ARMA-GARCH residuals, including CVX, FP, RDSA, XOM.'

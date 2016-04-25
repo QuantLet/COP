@@ -1,27 +1,23 @@
 
-Name of Quantlet:       COPapp1residual
+Name of Quantlet: COPapp1residual
  
-Published in:           Copulae
+Published in:     Copulae
 
-Description:		'COPapp1residual shows pairwise scatter plots of based on AR(1)-GARCH(1,1) fitted residuals.
-                         The 3 upper triangular plots show the pairwise residuals scatter points. The 3 lower 
-                         triangular plots show the scatter points computed from empirical cdf of the residuals.
-                         Companies Apple (AAPL), the Hewlett Packard (HP) and Microsoft (MSFT) are contained.' 
+Description:		 'COPapp1residual shows pairwise scatter plots of based on AR(1)-GARCH(1,1) fitted residuals.
+                  The 3 upper triangular plots show the pairwise residuals scatter points. The 3 lower 
+                  triangular plots show the scatter points computed from empirical cdf of the residuals.
+                  Companies Apple (AAPL), the Hewlett Packard (HP) and Microsoft (MSFT) are contained.' 
   
-Keywords:               autoregressive, correlation, garch, Apple, Hewlett Packard, Microsoft, daily
+Keywords:         autoregressive, correlation, garch, Apple, Hewlett Packard, Microsoft, daily
      
-See also:               COPapp1prices, COPapp1return
+See also:         COPapp1prices, COPapp1return
 
-Author:                 Ostap Okhrin, Yafei Xu
+Author:           Ostap Okhrin, Yafei Xu
 
-Datafile:		COPapp1residual.csv
+Datafile:		      COPapp1residual.csv
 
-Submitted:              Tue, October 31 2014 by Felix Jung
-
-Input:
+Submitted:        Tue, October 31 2014 by Felix Jung
      
-Output:                 'COPapp1residual returns pairwise scatter plots from AR-GARCH residuals (upper triangular)
-                         and from residuals mapped on unit square by the empirical cdf (lower triangular), 
-                         including AAPL, HP and MSFT.'
-
-Example:
+Output:          'COPapp1residual returns pairwise scatter plots from AR-GARCH residuals (upper triangular)
+                  and from residuals mapped on unit square by the empirical cdf (lower triangular), 
+                  including AAPL, HP and MSFT.'
