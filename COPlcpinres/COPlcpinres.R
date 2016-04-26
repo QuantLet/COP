@@ -1,3 +1,4 @@
+# setwd("/Users/christophschult/Gitlab/Copulae/COPlcpinres/")
 rm(list=ls(all=TRUE))
 
 # install.packages("fGarch")
