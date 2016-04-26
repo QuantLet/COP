@@ -24,5 +24,5 @@ Output:          'The Quantlet returns plots which show the profit and loss func
 
 
 Example:         'The example is performed for the indizes DAX, DJ and NIKKEI in the time span [1.1.1985; 23.12.2010]
-                  using the Gumbel copula.'
+                  using the Gumbel (first tow graphs) and the clayton copula (second two graphs).’
 
