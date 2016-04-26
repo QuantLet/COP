@@ -17,6 +17,8 @@ Datafile:        'COPts1AClayton.dat, COPts1AGumbel.dat, COPts1dates.dat, COPts1
                   COPts1sigmat.dat, cop_timeseries_1.dat'
 
 Submitted:        Tue, October 07 2014 by Felix Jung
+
+Input:            COPhelperfunctions
      
 Output:          'The Quantlet returns plots which show the profit and loss function (dots) for index data with
                   the 99%-VaR bound (solid line) and the time points of the exceedances (pluses) for the HAC model

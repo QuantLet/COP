@@ -16,5 +16,7 @@ Datafile:        'COPts2AClayton.dat, COPts2AGumbel.dat, COPts2dates.dat, COPts2
 
 Submitted:        Wed, October 08 2014 by Felix Jung
      
+Input:            COPhelperfunctions
+
 Output:          'The Quantlet returns plots which show the structure, the taus on the intervals of homogeneity,
                   the intervals of homogeneity and the ML on these intervals.'
