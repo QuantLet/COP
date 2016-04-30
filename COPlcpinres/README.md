@@ -30,7 +30,10 @@ of homogeneity, the intervals of homogeneity and the ML on these intervals.'
 
 ```
 
-
+![Picture1](Clayton1.png)
+![Picture2](Clayton2.png)
+![Picture3](Gumbel1.png)
+![Picture4](Gumbel2.png)
 
 ```r
 # setwd("/Users/christophschult/Gitlab/Copulae/COPlcpinres/")
