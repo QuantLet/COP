@@ -5,9 +5,6 @@
 
 ```yaml
 
-
-```yaml
-
 Name of Quantlet: COPapp1return
  
 Published in:     Copulae

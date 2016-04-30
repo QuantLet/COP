@@ -5,9 +5,6 @@
 
 ```yaml
 
-
-```yaml
-
 Name of Quantlet: COP3contourandcop
  
 Published in:     Copulae
