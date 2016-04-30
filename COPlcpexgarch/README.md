@@ -6,28 +6,28 @@
 ```yaml
 Name of Quantlet: COPlcpexgarch
  
-Published in:     Copulae
+Published in: Copulae
 
-Description:     'COPlcpexgarch fits to the daily returns of the exchange rates JPN/USD, GBP/USD and EUR/USD in the
-                  time span [4.1.1999; 14.8.2009] a Garch(1,1) model and gives back the mu, the parameters of the model,
-                  skewness and shape, Ljung-Box and the Kolmogorov-Smirnov test statistic. Also are given in the line
-                  beneath of the values the corresponding standard deviations.'
+Description: 'COPlcpexgarch fits to the daily returns of the exchange rates JPN/USD, GBP/USD and EUR/USD 
+in the time span [4.1.1999; 14.8.2009] a Garch(1,1) model and gives back the mu, the parameters of the 
+model, skewness and shape, Ljung-Box and the Kolmogorov-Smirnov test statistic. Also are given in the line
+beneath of the values the corresponding standard deviations.'
   
-Keywords:         HAC, clayton, gumbel, garch, exchange rates, returns
+Keywords: HAC, clayton, gumbel, garch, exchange rates, returns
 
-See also:         COPlcpeinaparch, COPlcpexVaR, COPlcpexres, COPlcpinVaR, COPlcpinres
+See also: COPlcpeinaparch, COPlcpexVaR, COPlcpexres, COPlcpinVaR, COPlcpinres
 
-Author:           Ostap Okhrin, Simon Trimborn
+Author: Ostap Okhrin, Simon Trimborn
 
-Datafile:         'COP_timeseries_2.dat'
+Datafile: 'COP_timeseries_2.dat'
 
-Submitted:        Mon, September 15 2014 by Felix Jung
+Submitted: Mon, September 15 2014 by Felix Jung
      
-Output:          'Returns a table with the estimations of the mu, the parameters of the model, skewness and shape,
-                  Ljung-Box and the Kolmogorov-Smirnov test statistic. Also are given in the line beneath of the 
-                  values the corresponding standard deviations.'
+Output: 'Returns a table with the estimations of the mu, the parameters of the model, skewness and shape,
+Ljung-Box and the Kolmogorov-Smirnov test statistic. Also are given in the line beneath of the values the
+corresponding standard deviations.'
 
-Example:          see COPlcpexres
+Example: see COPlcpexres
 
 
 ```

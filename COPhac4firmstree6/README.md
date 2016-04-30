@@ -6,25 +6,25 @@
 ```yaml
 Name of Quantlet: COPhac4firmstree6
  
-Published in:     Copulae
+Published in: Copulae
 
-Description:     'COPhac4firmstree6 is used to give a tree plot of a 5-dim HAC. Here the Gumbel generator is used.
-                  The parameter for X3, X4, X4 equals 2.005 and for ((X3, X4, X5), X2, X1) is 1.005. In the plot 
-                  all parameters have been transferred into the tau form.'
+Description: 'COPhac4firmstree6 is used to give a tree plot of a 5-dim HAC. Here the Gumbel 
+generator is used. The parameter for X3, X4, X4 equals 2.005 and for ((X3, X4, X5), X2, X1)
+is 1.005. In the plot all parameters have been transferred into the tau form.'
   
-Keywords:         HAC, copula, archimedean, gumbel, firms, tree
+Keywords: HAC, copula, archimedean, gumbel, firms, tree
 
-See also:         COPhac4firmstree5
+See also: COPhac4firmstree5
 
-Author:           Ostap Okhrin, Yafei Xu
+Author: Ostap Okhrin, Yafei Xu
 
-Datafile:         CopTreeFile
+Datafile: CopTreeFile
 
-Submitted:        Tue, November 06 2014 by Sergey Nasekin
+Submitted: Tue, November 06 2014 by Sergey Nasekin
      
-Output:           COPhac4firmstree6 returns a tree plot of a 5-dim HAC.
+Output: COPhac4firmstree6 returns a tree plot of a 5-dim HAC.
 
-Example:          A tree plot of a 5-dim HAC.
+Example: A tree plot of a 5-dim HAC.
 
 
 ```

@@ -3,8 +3,8 @@
 library(RCurl)
 library(XML)
 
-sMACorWIN = "MAC"
-sPathRootWIN = "C:/Users/Christoph/Documents/GitHub/Copulae"
+sMACorWIN = "WIN"
+sPathRootWIN = "C:/Users/Christoph/Documents/Gitlab/Copulae/"
 sPathRootMAC = "/Users/christophschult/Gitlab/Copulae/"
 sReadFile = "Metainfo.txt"
 
@@ -15,10 +15,10 @@ if(sMACorWIN == "MAC"){
 
 # set working directory
 setwd(sPathRoot)
-readkey <- function()
+readkey = function()
 {
   cat ("Press [enter] to continue")
-  line <- readline()
+  line = readline()
 }
 
 lDirectories = dir(sPathRoot, full.names = TRUE, pattern = "COP")
@@ -30,6 +30,6 @@ while(iCounter <= length(lDirectories)){
 setwd(lDirectories[iCounter]) 
 metainfo = file.edit("Metainfo.txt")
 print(iCounter)
-print ("Press [enter] to continue")
+readkey()
 iCounter = iCounter + 1}
   

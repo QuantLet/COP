@@ -8,11 +8,10 @@ Name of Quantlet: COPhac5varsmpscatter
  
 Published in:     Copulae
 
-Description:     'COPhac5varsmpscatter gives a plot of pairwise scatter plot of an HAC sample with 5 dimensions
-                  and a Gumbel generator. The parameter for X3, X4, X4 equals 2.005 and for ((X3, X4, X5), X2, X1)
-                  it is 1.005. According to these structure we construct an HAC with a Gumbel generator. Then 1500
-                  random numbers are drawn from this HAC. Hence, for every variable we obtain 1500 numbers. Then 
-                  for each pair of two variables we can obtain a scatter plot.'
+Description:     'COPhac5varsmpscatter gives a plot of pairwise scatter plot of an HAC sample with 5 dimensions and a
+Gumbel generator. The parameter for X3, X4, X4 equals 2.005 and for ((X3, X4, X5), X2, X1) it is 1.005. According to
+these structure we construct an HAC with a Gumbel generator. Then 1500 random numbers are drawn from this HAC. Hence,
+for every variable we obtain 1500 numbers. Then for each pair of two variables we can obtain a scatter plot.'
   
 Keywords:         HAC, copula, gumbel, simulation, multivariate
 

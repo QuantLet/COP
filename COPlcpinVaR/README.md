@@ -8,31 +8,30 @@ Name of Quantlet: COPlcpinVaR
  
 Published in:     Copulae
 
-Description:     'COPlcpinVaR computes from the results of fitting a Aparch(1, 1) model to daily returns,
-                  see COPlcpinaparch, and choosing the HAC model, see COPlcpinres, the profit and loss 
-                  function (dots) with the 99%-VaR bound (solid line) and the time points of the exceedances
-                  (pluses).'
+Description: 'COPlcpinVaR computes from the results of fitting a Aparch(1, 1) model to daily returns,
+see COPlcpinaparch, and choosing the HAC model, see COPlcpinres, the profit and loss function (dots)
+with the 99%-VaR bound (solid line) and the time points of the exceedances (pluses).'
   
-Keywords:         HAC, clayton, gumbel, aparch, daily returns
+Keywords: HAC, clayton, gumbel, aparch, daily returns
 
-See also:         COPlcpeinaparch, COPlcpexVaR, COPlcpexgarch, COPlcpexres, COPlcpinres
+See also: COPlcpeinaparch, COPlcpexVaR, COPlcpexgarch, COPlcpexres, COPlcpinres
 
-Author:           Ostap Okhrin, Simon Trimborn
+Author: Ostap Okhrin, Simon Trimborn
 
-Datafile:        'COPts1AClayton.dat, COPts1AGumbel.dat, COPts1dates.dat, COPts1eps.dat, COPts1parameters.dat,
-                  COPts1sigmat.dat, cop_timeseries_1.dat'
+Datafile: 'COPts1AClayton.dat, COPts1AGumbel.dat, COPts1dates.dat, COPts1eps.dat, COPts1parameters.dat,
+COPts1sigmat.dat, cop_timeseries_1.dat'
 
-Submitted:        Tue, October 07 2014 by Felix Jung
+Submitted: Tue, October 07 2014 by Felix Jung
 
-Input:            COPhelperfunctions
+Input: COPhelperfunctions
      
-Output:          'The Quantlet returns plots which show the profit and loss function (dots) for index data with
-                  the 99%-VaR bound (solid line) and the time points of the exceedances (pluses) for the HAC model
-                  with Gumbel and Clayton generators.'
+Output: 'The Quantlet returns plots which show the profit and loss function (dots) for index data with
+the 99%-VaR bound (solid line) and the time points of the exceedances (pluses) for the HAC model
+with Gumbel and Clayton generators.'
 
 
-Example:         'The example is performed for the indizes DAX, DJ and NIKKEI in the time span [1.1.1985; 23.12.2010]
-                  using the Gumbel (first tow graphs) and the clayton copula (second two graphs).â€™
+Example: 'The example is performed for the indizes DAX, DJ and NIKKEI in the time span [1.1.1985; 23.12.2010]
+using the Gumbel (first two graphs) and the clayton copula (second two graphs).â'
 
 
 ```

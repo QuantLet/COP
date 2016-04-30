@@ -7,28 +7,28 @@
 
 Name of Quantlet: COP3contourandcop
  
-Published in:     Copulae
+Published in: Copulae
 
-Description:		 'Six bivariate copula plots and their corresponding contour plots are created
-                  including the Gaussian copula, the Gumbel copula and the Clayton copula. In 
-                  the figure, the upper blue picture is a normal copula with 2 Gaussian margins
-                  and an exchangeable parameter equal to 0.71. The lower blue plot is a normal 
-                  copula with 2 Student-t margins with degree of freedom equal to 3. The upper 
-                  red plot is a Gumbel copula with 2 standard normal margins and an exchangeable
-                  parameter is 2. The lower red plot is also a Gumbel copula with 2 t margins 
-                  under degree of freedom of 3. The upper green plot is a Clayton copula with 2 
-                  standard normal margins with an exchangeable parameter of 2. The lower green 
-                  plot uses the same copula with the upper green but 2 t margins with degree of 
-                  freedom equal to 3.' 
+Description: 'Six bivariate copula plots and their corresponding contour plots
+are created including the Gaussian copula, the Gumbel copula and the Clayton 
+copula. In the figure, the upper blue picture is a normal copula with 2 Gaussian
+margins and an exchangeable parameter equal to 0.71. The lower blue plot is a 
+normal copula with 2 Student-t margins with degree of freedom equal to 3. The
+upper red plot is a Gumbel copula with 2 standard normal margins and an exchange-
+able parameter is 2. The lower red plot is also a Gumbel copula with 2 t margins 
+under degree of freedom of 3. The upper green plot is a Clayton copula with 2 
+standard normal margins with an exchangeable parameter of 2. The lower green 
+plot uses the same copula with the upper green but 2 t margins with degree of 
+freedom equal to 3.' 
   
-Keywords:         clayton, contour, copula, gumbel, normal
+Keywords: clayton, contour, copula, gumbel, normal
 
-Author:           Ostap Okhrin, Yafei Xu
+Author: Ostap Okhrin, Yafei Xu
 
-Submitted:        Tue, October 28 2014 by Felix Jung
+Submitted: Tue, October 28 2014 by Felix Jung
      
-Output:          'This quantlet returns a plot of copula contour and its CDF in 3D.
-			            Here copulas,normal copula, Gumbel copula and Clayton copula, are included.'
+Output: 'This quantlet returns a plot of copula contour and its CDF in 3D.
+Here copulas,normal copula, Gumbel copula and Clayton copula, are included.'
 
 
 ```

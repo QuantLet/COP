@@ -1,17 +1,16 @@
 Name of Quantlet: COPhelperfunctions
  
-Published in:     Copulae
+Published in: Copulae
 
-Description:      The Quantlet COPhelperfunctions includes several routines for the Quantlet COPlcpexres.
+Description: The Quantlet COPhelperfunctions includes several routines for the Quantlet COPlcpexres.
   
-Keywords:         HAC, clayton, gumbel, kendall, multivariate, gaussian, gauss
+Keywords: HAC, clayton, gumbel, kendall, multivariate, gaussian, gauss
 
-Author:           Ostap Okhrin, Simon Trimborn
+Author: Ostap Okhrin, Simon Trimborn
 
-Submitted:        Tue, October 07 2014 by Felix Jung
+Submitted: Tue, October 07 2014 by Felix Jung
      
-Output:           Length, structure, parameters and ML for the copulas.
+Output: Length, structure, parameters and ML for the copulas.
 
-
-Example:          see COPlcpexres
+Example: see COPlcpexres
 

@@ -1,22 +1,22 @@
 
 Name of Quantlet: COPapp1return
  
-Published in:     Copulae
+Published in: Copulae
 
-Description:	   'COPapp1return gives time series plots of 3 companies'' daily returns.
-                  The three companies Apple (APL), the Hewlett Packard (HP) and Microsoft
-                  (MSFT) are contained. In the figures the window from 04.01.2006 to 
-                  04.11.2009 is considered.' 
+Description: 'COPapp1return gives time series plots of 3 companies'' daily
+returns. The three companies Apple (APL), the Hewlett Packard (HP) and 
+Microsoft (MSFT) are contained. In the figures the window from 04.01.2006
+to 04.11.2009 is considered.' 
   
-Keywords:         plot, returns, time-series, Hewlett Packard, Microsoft, daily
+Keywords: plot, returns, time-series, Hewlett Packard, Microsoft, daily
      
-See also:         COPapp1prices, COPapp1residual
+See also: COPapp1prices, COPapp1residual
 
-Author:           Ostap Okhrin, Yafei Xu
+Author: Ostap Okhrin, Yafei Xu
 
-Datafile:		      COPapp1return.csv
+Datafile: COPapp1return.csv
 
-Submitted:        Mon, Nov 10 2014 by Felix Jung
+Submitted: Mon, Nov 10 2014 by Felix Jung
 
-Output:          'The quantlet returns time series plots of 3 companies'' returns, APL, HP and MSFT,
-                  with window 04.01.2006 - 04.11.2009.'
+Output: 'The quantlet returns time series plots of 3 companies'' returns,
+APL, HP and MSFT, with window 04.01.2006 - 04.11.2009.'

@@ -1,19 +1,19 @@
 Name of Quantlet: COPdaxreturnhist
  
-Published in:     Copulae
+Published in: Copulae
 
-Description:     'COPdaxreturn gives a DAX returns'' time series plot with a window from 1986-01-03 to 2008-12-30.'
+Description: 'COPdaxreturn gives a DAX returns'' time series plot with a window from 1986-01-03 to 2008-12-30.'
   
-Keywords:         density, histogram, plot, returns, DAX
+Keywords: density, histogram, plot, returns, DAX
      
-See also:         COPdaxtimeseries, COPdensitydaxreturn
+See also: COPdaxtimeseries, COPdensitydaxreturn
 
-Author:           Ostap Okhrin, Yafei Xu
+Author: Ostap Okhrin, Yafei Xu
 
-Datafile:         COPdax140624.csv
+Datafile: COPdax140624.csv
 
-Submitted:        Thu, November 13 2014 by Sergey Nasekin
+Submitted: Thu, November 13 2014 by Sergey Nasekin
      
-Output:           COPdaxreturnhist gives a histogram of DAX returns
+Output: COPdaxreturnhist gives a histogram of DAX returns
 
-Example:          a histogram of DAX returns
+Example: a histogram of DAX returns

@@ -1,21 +1,21 @@
 Name of Quantlet: COPdaxtimeseries
  
-Published in:     Copulae
+Published in: Copulae
 
-Description:     'COPdaxtimeseries gives a time series plot of the DAX index levels with
-                  the window from 1986-01-02 to 2008-12-30.'
-  
-Keywords:         plot, time-series, DAX, DAX index, time-series plot
+Description: 'COPdaxtimeseries gives a time series plot of the DAX index
+levels with the window from 1986-01-02 to 2008-12-30.'
+
+Keywords: plot, time-series, DAX, DAX index, time-series plot
      
-See also:         'COPdaxhistogram, COPdaxreturnhist, COPdensitydaxreturn, MMSTATtime_series_1'
+See also: 'COPdaxhistogram, COPdaxreturnhist, COPdensitydaxreturn, MMSTATtime_series_1'
 
-Author:           Ostap Okhrin, Yafei Xu
+Author: Ostap Okhrin, Yafei Xu
 
-Datafile:         COPdax140624.csv
+Datafile: COPdax140624.csv
 
-Submitted:        Tue, October 28 2014 by Sergey Nasekin
+Submitted: Tue, October 28 2014 by Sergey Nasekin
      
-Output:           COPdaxtimeseries gives a time series plot of DAX index
+Output: COPdaxtimeseries gives a time series plot of DAX index
 
-Example:          a time series plot of DAX index
+Example: a time series plot of DAX index
 

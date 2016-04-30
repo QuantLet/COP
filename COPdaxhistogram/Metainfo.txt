@@ -1,16 +1,16 @@
 Name of Quantlet: COPdaxhistogram
  
-Published in:     Copulae
+Published in: Copulae
 
-Description:     'This quantlet plots a histogram of daily DAX 30 index levels
-                  from 1986-01-02 until 2012-12-30.'
+Description: 'This quantlet plots a histogram of daily
+DAX 30 index levels from 1986-01-02 until 2012-12-30.'
   
-Keywords:         histogram, plot, distribution, DAX index, daily, density
+Keywords: histogram, plot, distribution, DAX index, daily, density
      
-See also:         COPdaxtimeseries, COPdensitydaxreturn
+See also: COPdaxtimeseries, COPdensitydaxreturn
 
-Author:           Ostap Okhrin, Yafei Xu
+Author: Ostap Okhrin, Yafei Xu
 
-Datafile:         COPdax140624.csv
+Datafile: COPdax140624.csv
 
-Submitted:        Mon, October 28 2014 by Felix Jung
+Submitted: Mon, October 28 2014 by Felix Jung
