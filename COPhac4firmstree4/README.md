@@ -26,7 +26,7 @@ Example:          Example of a tree
 
 ```
 
-!{Picture1](COPhac4firmstree4.png)
+![Picture1](COPhac4firmstree4.png)
 
 ```r
 rm(list = ls(all = TRUE))

@@ -36,8 +36,8 @@ Example:          see COPlcpexres
 
 ```
 
-!{Picture1](Claytonscatter.png)
-!{Picture2](Gumbelscatter.png)
+![Picture1](Claytonscatter.png)
+![Picture2](Gumbelscatter.png)
 
 ```r
 rm(list=ls(all=TRUE))

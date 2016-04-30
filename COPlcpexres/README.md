@@ -26,10 +26,10 @@ Output:          'The Quantlet returns plots which show the structure, the taus 
 
 ```
 
-!{Picture1](ClaytonML.png)
-!{Picture2](ClaytonStructure.png)
-!{Picture3](GumbelML.png)
-!{Picture4](GumbelStructure.png)
+![Picture1](ClaytonML.png)
+![Picture2](ClaytonStructure.png)
+![Picture3](GumbelML.png)
+![Picture4](GumbelStructure.png)
 
 ```r
 rm(list=ls(all=TRUE))

@@ -30,7 +30,7 @@ Output:          'COPhac3dscatter2 gives a 3D scatter plot with samples generate
 
 ```
 
-!{Picture1](COPhac3dscatter2.png)
+![Picture1](COPhac3dscatter2.png)
 
 ```r
 rm(list = ls(all = TRUE))

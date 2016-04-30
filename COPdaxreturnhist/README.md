@@ -26,7 +26,7 @@ Example:          a histogram of DAX returns
 
 ```
 
-!{Picture1](COPdaxreturnhist.png)
+![Picture1](COPdaxreturnhist.png)
 
 ```r
 # replace the path of the working directory if necessary

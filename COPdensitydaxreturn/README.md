@@ -31,7 +31,7 @@ Output:          'COPdensitydaxreturn gives the DAX histogram compared to the 3 
 
 ```
 
-!{Picture1](COPdensitydaxreturn.png)
+![Picture1](COPdensitydaxreturn.png)
 
 ```r
 rm(list = ls(all = TRUE))

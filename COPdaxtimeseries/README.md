@@ -28,7 +28,7 @@ Example:          a time series plot of DAX index
 
 ```
 
-!{Picture1](COPdaxtimeseries.png)
+![Picture1](COPdaxtimeseries.png)
 
 ```r
 #setwd("C:/...") # please change your working directory

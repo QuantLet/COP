@@ -31,7 +31,7 @@ Example:          A tree plot of a 10-dim HAC
 
 ```
 
-!{Picture1](COPhac4firmstree5.png)
+![Picture1](COPhac4firmstree5.png)
 
 ```r
 rm(list = ls(all = TRUE))

@@ -28,7 +28,7 @@ Example:          Example of a tree
 
 ```
 
-!{Picture1](COPhac4firmstree3.png)
+![Picture1](COPhac4firmstree3.png)
 
 ```r
 

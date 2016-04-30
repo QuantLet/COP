@@ -29,7 +29,7 @@ Output:          'The quantlet returns time series plots of 3 companies'' return
 
 ```
 
-!{Picture1](COPapp1return.png)
+![Picture1](COPapp1return.png)
 
 ```r
 rm(list = ls(all = TRUE))

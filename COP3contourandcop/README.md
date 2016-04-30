@@ -33,7 +33,7 @@ Output:          'This quantlet returns a plot of copula contour and its CDF in 
 
 ```
 
-!{Picture1](COP3contourandcop.png)
+![Picture1](COP3contourandcop.png)
 
 ```r
 rm(list = ls(all = TRUE))

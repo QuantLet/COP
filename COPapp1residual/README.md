@@ -30,7 +30,7 @@ Output:          'COPapp1residual returns pairwise scatter plots from AR-GARCH r
 
 ```
 
-!{Picture1](COPapp1residual.png)
+![Picture1](COPapp1residual.png)
 
 ```r
 rm(list = ls(all = TRUE))

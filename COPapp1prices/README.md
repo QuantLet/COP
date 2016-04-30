@@ -28,8 +28,8 @@ Output:          'The Quantlet returns time series plots of 3 companies' prices,
 
 ```
 
-!{Picture1](COPapp1prices.png)
-!{Picture2](COPapp1residual.png)
+![Picture1](COPapp1prices.png)
+![Picture2](COPapp1residual.png)
 
 ```r
 rm(list = ls(all = TRUE))

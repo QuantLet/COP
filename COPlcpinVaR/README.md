@@ -37,10 +37,10 @@ Example:         'The example is performed for the indizes DAX, DJ and NIKKEI in
 
 ```
 
-!{Picture1](clayton1.png)
-!{Picture2](clayton2.png)
-!{Picture3](gumbel1.png)
-!{Picture4](gumbel2.png)
+![Picture1](clayton1.png)
+![Picture2](clayton2.png)
+![Picture3](gumbel1.png)
+![Picture4](gumbel2.png)
 
 ```r
 rm(list=ls(all=TRUE))

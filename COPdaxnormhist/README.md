@@ -30,7 +30,7 @@ Example:          Histogram of the DAX returns compared to a simulated normal sa
 
 ```
 
-!{Picture1](COPdaxnormhist.png)
+![Picture1](COPdaxnormhist.png)
 
 ```r
 # replace the path of the working directory if necessary

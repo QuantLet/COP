@@ -25,7 +25,7 @@ Output:          'The Quantlet returns pairwise scatter plots from ARMA-GARCH re
 
 ```
 
-!{Picture1](COPhac4firmsscatter.png)
+![Picture1](COPhac4firmsscatter.png)
 
 ```r
 rm(list = ls(all = TRUE))

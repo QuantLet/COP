@@ -23,7 +23,7 @@ Submitted:        Mon, October 28 2014 by Felix Jung
 
 ```
 
-!{Picture1](COPdaxhistogram.png)
+![Picture1](COPdaxhistogram.png)
 
 ```r
 # replace the path of the working directory if necessary

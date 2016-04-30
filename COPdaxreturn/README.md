@@ -22,7 +22,7 @@ Example:          Return series of the DAX.
 
 ```
 
-!{Picture1](COPdaxreturn.png)
+![Picture1](COPdaxreturn.png)
 
 ```r
 # replace the path of the working directory if necessary

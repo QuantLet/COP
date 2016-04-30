@@ -33,7 +33,7 @@ Example:        'A tree plot of a 5-dim HAC.'
 
 ```
 
-!{Picture1](COPhac5pp.png)
+![Picture1](COPhac5pp.png)
 
 ```r
 # install.packages(c("HAC")) # run this line to install necccesary package
