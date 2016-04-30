@@ -23,7 +23,7 @@ Submitted:        Mon, October 20 2014 by Felix Jung
 
 ```
 
-![Picture1]()
+
 
 ```r
 rm(list = ls(all = TRUE))

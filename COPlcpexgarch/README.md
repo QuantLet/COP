@@ -32,7 +32,7 @@ Example:          see COPlcpexres
 
 ```
 
-![Picture1]()
+
 
 ```r
 rm(list=ls(all=TRUE))

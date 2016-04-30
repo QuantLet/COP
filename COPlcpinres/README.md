@@ -29,7 +29,7 @@ Output:          'The Quantlet returns plots which show the structure, the taus 
 
 ```
 
-![Picture1]()
+
 
 ```r
 # setwd("/Users/christophschult/Gitlab/Copulae/COPlcpinres/")
