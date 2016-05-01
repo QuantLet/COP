@@ -28,6 +28,9 @@ Input: COPhelperfunctions
 Output: 'The Quantlet returns plots which show the structure, the taus on the intervals
 of homogeneity, the intervals of homogeneity and the ML on these intervals.'
 
+Example: 'The example is performed for the indizes DAX, DJ and NIKKEI in the time span [1.1.1985; 23.12.2010]
+using the Clayton (first two graphs) and the Gumbel copula (second two graphs).'
+
 ```
 
 ![Picture1](Clayton1.png)

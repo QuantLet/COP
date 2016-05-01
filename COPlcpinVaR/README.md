@@ -6,7 +6,7 @@
 ```yaml
 Name of Quantlet: COPlcpinVaR
  
-Published in:     Copulae
+Published in: Copulae
 
 Description: 'COPlcpinVaR computes from the results of fitting a Aparch(1, 1) model to daily returns,
 see COPlcpinaparch, and choosing the HAC model, see COPlcpinres, the profit and loss function (dots)
@@ -29,9 +29,8 @@ Output: 'The Quantlet returns plots which show the profit and loss function (dot
 the 99%-VaR bound (solid line) and the time points of the exceedances (pluses) for the HAC model
 with Gumbel and Clayton generators.'
 
-
 Example: 'The example is performed for the indizes DAX, DJ and NIKKEI in the time span [1.1.1985; 23.12.2010]
-using the Gumbel (first two graphs) and the clayton copula (second two graphs).â'
+using the Clayton (first two graphs) and the Gumbel copula (second two graphs).'
 
 
 ```
