@@ -27,7 +27,6 @@ Output: 'The Quantlet returns pairwise scatter plots from ARMA-GARCH residuals, 
 
 ![Picture1](COPhac4firmsscatter.png)
 
-### R Code:
 ```r
 rm(list = ls(all = TRUE))
 #install.packages("HAC")

@@ -34,7 +34,6 @@ theoretical densities including normal, Student-t and Epanechnikov.'
 
 ![Picture1](COPdensitydaxreturn.png)
 
-### R Code:
 ```r
 rm(list = ls(all = TRUE))
 #setwd("C:/...") # please change your working directory

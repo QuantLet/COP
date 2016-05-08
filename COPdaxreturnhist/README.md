@@ -28,7 +28,6 @@ Example: a histogram of DAX returns
 
 ![Picture1](COPdaxreturnhist.png)
 
-### R Code:
 ```r
 # replace the path of the working directory if necessary
 # setwd("C:/R") 

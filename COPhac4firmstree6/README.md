@@ -31,7 +31,6 @@ Example: A tree plot of a 5-dim HAC.
 
 ![Picture1](COPhac4firmstree6.png)
 
-### R Code:
 ```r
 rm(list = ls(all = TRUE))
 #install.packages("HAC")

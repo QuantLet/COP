@@ -33,7 +33,6 @@ Example: A tree plot of a 10-dim HAC
 
 ![Picture1](COPhac4firmstree5.png)
 
-### R Code:
 ```r
 rm(list = ls(all = TRUE))
 #install.packages("HAC")

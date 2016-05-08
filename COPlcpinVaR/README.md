@@ -40,7 +40,6 @@ using the Clayton (first two graphs) and the Gumbel copula (second two graphs).'
 ![Picture3](gumbel1.png)
 ![Picture4](gumbel2.png)
 
-### R Code:
 ```r
 rm(list=ls(all=TRUE))
 

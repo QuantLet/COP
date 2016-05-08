@@ -31,7 +31,6 @@ Example: Example of a tree
 
 ![Picture1](COPhac4firmstree3.png)
 
-### R Code:
 ```r
 
 rm(list = ls(all = TRUE))

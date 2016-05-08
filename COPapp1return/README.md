@@ -31,7 +31,6 @@ APL, HP and MSFT, with window 04.01.2006 - 04.11.2009.'
 
 ![Picture1](COPapp1return.png)
 
-### R Code:
 ```r
 rm(list = ls(all = TRUE))
 #setwd("C:/...") # please change your working directory

@@ -32,7 +32,6 @@ homogeneity, the intervals of homogeneity and the ML on these intervals.'
 ![Picture3](GumbelML.png)
 ![Picture4](GumbelStructure.png)
 
-### R Code:
 ```r
 rm(list=ls(all=TRUE))
 

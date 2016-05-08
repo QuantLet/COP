@@ -32,7 +32,6 @@ Output: COPhac3dscatter1 gives a 3D scatter plot with samples generated from an 
 
 ![Picture1](COPhac3dscatter1.png)
 
-### R Code:
 ```r
 rm(list = ls(all = TRUE))
 #setwd("C:/...") # please change your working directory

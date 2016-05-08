@@ -38,7 +38,6 @@ using the Clayton (first two graphs) and the Gumbel copula (second two graphs).'
 ![Picture3](Gumbel1.png)
 ![Picture4](Gumbel2.png)
 
-### R Code:
 ```r
 # setwd("/Users/christophschult/Gitlab/Copulae/COPlcpinres/")
 rm(list=ls(all=TRUE))

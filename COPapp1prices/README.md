@@ -31,7 +31,6 @@ window 04.01.2006 - 04.11.2009.'
 ![Picture1](COPapp1prices.png)
 ![Picture2](COPapp1residual.png)
 
-### R Code:
 ```r
 rm(list = ls(all = TRUE))
 # replace the path of the working directory if necessary

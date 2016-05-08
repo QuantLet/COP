@@ -27,7 +27,6 @@ with window 04.01.2006 - 04.11.2009. '
 
 ![Picture1](COPcorrelation1.png)
 
-### R Code:
 ```r
 rm(list = ls(all = TRUE))
 # set the parameters and draw samples
