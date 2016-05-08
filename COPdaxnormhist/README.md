@@ -32,6 +32,7 @@ Example: Histogram of the DAX returns compared to a simulated normal sample.
 
 ![Picture1](COPdaxnormhist.png)
 
+### R Code:
 ```r
 # replace the path of the working directory if necessary
 # setwd("C:/R") 

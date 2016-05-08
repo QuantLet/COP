@@ -26,6 +26,7 @@ Submitted: Mon, October 20 2014 by Felix Jung
 
 ![Picture1](Correlation2.png)
 
+### R Code:
 ```r
 rm(list = ls(all = TRUE))
 # set the parameters and draw samples

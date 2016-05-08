@@ -25,6 +25,7 @@ Example: see COPlcpexres
 
 
 
+### R Code:
 ```r
 theta.eps = 0.01
 

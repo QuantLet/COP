@@ -39,6 +39,7 @@ Example: see COPlcpexres
 ![Picture1](Claytonscatter.png)
 ![Picture2](Gumbelscatter.png)
 
+### R Code:
 ```r
 rm(list=ls(all=TRUE))
 

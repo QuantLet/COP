@@ -28,6 +28,7 @@ Example: Example of a tree
 
 ![Picture1](COPhac4firmstree4.png)
 
+### R Code:
 ```r
 rm(list = ls(all = TRUE))
 #install.packages("HAC")

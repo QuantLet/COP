@@ -34,6 +34,7 @@ Example: 'A tree plot of a 5-dim HAC.'
 
 ![Picture1](COPhac5pp.png)
 
+### R Code:
 ```r
 # install.packages(c("HAC")) # run this line to install necccesary package
 rm(list = ls(all = TRUE))

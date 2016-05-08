@@ -13,7 +13,7 @@ densities including the standard normal density in red, the Student-t density
 in green with degrees of freedom equal to 5 and the estimated Epanechnikov 
 kernel density in blue with the bandwidth computed following that 0.9 times 
 the minimum of the standard deviation and the interquartile range divided by
-1.34 times the sample size to the negative one-fifth power, i.e. Silverman's
+1.34 times the sample size to the negative one-fifth power, i.e. Silverman''s
 rule-of-thumb.'
   
 Keywords: Epanechnikov, density, histogram, normal, student, kernel
@@ -34,6 +34,7 @@ theoretical densities including normal, Student-t and Epanechnikov.'
 
 ![Picture1](COPdensitydaxreturn.png)
 
+### R Code:
 ```r
 rm(list = ls(all = TRUE))
 #setwd("C:/...") # please change your working directory

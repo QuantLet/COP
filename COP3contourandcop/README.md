@@ -35,6 +35,7 @@ Here copulas,normal copula, Gumbel copula and Clayton copula, are included.'
 
 ![Picture1](COP3contourandcop.png)
 
+### R Code:
 ```r
 rm(list = ls(all = TRUE))
 dev.new(width = 13, height = 7)

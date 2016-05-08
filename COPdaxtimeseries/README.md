@@ -30,6 +30,7 @@ Example: a time series plot of DAX index
 
 ![Picture1](COPdaxtimeseries.png)
 
+### R Code:
 ```r
 #setwd("C:/...") # please change your working directory
 d         = read.csv("COPdax140624.csv")

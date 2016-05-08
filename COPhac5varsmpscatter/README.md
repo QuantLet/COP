@@ -29,6 +29,7 @@ Example:          A tree plot of a 5-dim HAC.
 
 ![Picture1](COPhac5varsmpscatter.png)
 
+### R Code:
 ```r
 # ------------------------------------------------------------------------------
 # Book:         COP

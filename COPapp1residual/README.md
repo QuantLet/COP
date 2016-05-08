@@ -32,6 +32,7 @@ Output: 'COPapp1residual returns pairwise scatter plots from AR-GARCH residuals
 
 ![Picture1](COPapp1residual.png)
 
+### R Code:
 ```r
 rm(list = ls(all = TRUE))
 # please install these packages if necessary

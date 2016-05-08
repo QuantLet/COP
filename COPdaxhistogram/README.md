@@ -25,6 +25,7 @@ Submitted: Mon, October 28 2014 by Felix Jung
 
 ![Picture1](COPdaxhistogram.png)
 
+### R Code:
 ```r
 # replace the path of the working directory if necessary
 # setwd("C:/R") 
