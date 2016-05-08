@@ -1,4 +1,4 @@
-# setwd("/Users/christophschult/Gitlab/Copulae/COPlcpinres/")
+# setwd("C:/...") # please set your working directory
 rm(list=ls(all=TRUE))
 
 # install.packages("fGarch")
