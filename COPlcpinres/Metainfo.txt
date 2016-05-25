@@ -2,25 +2,24 @@ Name of Quantlet: COPlcpinres
  
 Published in: Copulae
 
-Description: 'COPlcpinres computes from the results of fitting a Aparch(1,1) model to daily 
-returns, see COPlcpinaparch, when which copula fits the data best. Used are Gumbel and 
-Clayton copula.'
+Description: 'Computes from the results of fitting a Aparch(1,1) model to daily returns,
+see COPlcpinaparch, when which copula fits the data best. Used are Gumbel and Clayton copula.'
   
-Keywords: HAC, clayton, gumbel, aparch, daily, returns
+Keywords: HAC, clayton, gumbel, aparch, daily, returns, copula, plot
 
 See also: COPlcpeinaparch, COPlcpexVaR, COPlcpexgarch, COPlcpexres, COPlcpinVaR
 
 Author: Ostap Okhrin, Simon Trimborn
 
-Datafile: 'COPts2AClayton.dat, COPts2AGumbel.dat, COPts2dates.dat, COPts2eps.dat, COPts2parameters.dat,
-COPts2sigmat.dat, COP_timeseries_2.dat'
+Code Editor: Ramona Steck, Verena Weber
+
+Datafile: COPclayton, COPgumbel, COPts1dates, COPts1feps
 
 Submitted: Wed, October 08 2014 by Felix Jung
      
 Input: COPhelperfunctions
 
-Output: 'The Quantlet returns plots which show the structure, the taus on the intervals
-of homogeneity, the intervals of homogeneity and the ML on these intervals.'
+Output: Returns plots which show the structure, the taus on the intervals of homogeneity, the intervals of homogeneity and the ML on these intervals.
 
 Example: 
 - 1/2: The example is performed for the indizes Dow Jones (DJ), DAX and NIKKEI in the time span [01.01.1985; 23.12.2010] using the Gumbel copula.
