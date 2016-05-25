@@ -1,50 +1,3 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="880" alt="Visit QuantNet">](http://quantlet.de/index.php?p=info)
-
-## [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **COPlcpinres** [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/d3/ia)
-
-```yaml
-
-Name of Quantlet : COPlcpinres
-
-Published in : Copulae
-
-Description : 'COPlcpinres computes from the results of fitting a Aparch(1,1) model to daily
-returns, see COPlcpinaparch, when which copula fits the data best. Used are Gumbel and Clayton
-copula.'
-
-Keywords : HAC, clayton, gumbel, aparch, daily, returns
-
-See also : COPlcpeinaparch, COPlcpexVaR, COPlcpexgarch, COPlcpexres, COPlcpinVaR
-
-Author : Ostap Okhrin, Simon Trimborn
-
-Datafile : 'COPts2AClayton.dat, COPts2AGumbel.dat, COPts2dates.dat, COPts2eps.dat,
-COPts2parameters.dat, COPts2sigmat.dat, COP_timeseries_2.dat'
-
-Submitted : Wed, October 08 2014 by Felix Jung
-
-Input : COPhelperfunctions
-
-Output : 'The Quantlet returns plots which show the structure, the taus on the intervals of
-homogeneity, the intervals of homogeneity and the ML on these intervals.'
-
-Example : 'The example is performed for the indizes DAX, DJ and NIKKEI in the time span [1.1.1985;
-23.12.2010] using the Clayton (first two graphs) and the Gumbel copula (second two graphs).'
-
-```
-
-![Picture1](Clayton1.png)
-
-![Picture2](Clayton2.png)
-
-![Picture3](Gumbel1.png)
-
-![Picture4](Gumbel2.png)
-
-
-### R Code:
-```r
 # setwd("C:/...") # please set your working directory
 rm(list=ls(all=TRUE))
 
@@ -187,4 +140,3 @@ plot.COP = function(A, sigma_tau, copula.in.use){
 
 plot.COP(AGumbel, sigma_tauG, "gumbel")
 plot.COP(AClayton, sigma_tauC, "clayton")
-```
