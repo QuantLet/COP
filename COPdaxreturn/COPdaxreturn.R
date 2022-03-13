@@ -1,6 +1,6 @@
 # replace the path of the working directory if necessary
 # setwd("C:/R") 
-d = read.csv("dax140624.csv")
+d = read.csv("COPdax140624.csv")
 DateInput = as.Date(d[,  1])
 numOfDate = as.numeric(as.Date(c(DateInput)))
 newDF = data.frame(d, numOfDate)
