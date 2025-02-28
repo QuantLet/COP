@@ -7,23 +7,23 @@ library(copula)
 
 source("COPhelperfunctions.R")
 
-X = read.csv("cop_timeseries_1.dat", header = T, sep = ";", dec=",")
+X = read.csv("cop_timeseries_1", header = T, sep = ";", dec=",")
 X = X[, -1] 
 R = apply(log(X), 2, diff)
 
-dates = read.table("COPts1dates.dat")
+dates = read.table("COPts1dates")
 dates = as.matrix(dates)
 
 # results from the Quantlets COPlcpexgarch and COPlcpexres
-COPAGumbel  = read.table("COPts1AGumbel.txt", header = T, sep = " ", dec = ".", 
+COPAGumbel  = read.table("COPts1AGumbel", header = T, sep = " ", dec = ".", 
                          row.names = NULL)
 COPAGumbel  = COPAGumbel[,-1]
-COPAClayton = read.table("COPts1AClayton.txt", header = T, sep = " ", dec = ".", 
+COPAClayton = read.table("COPts1AClayton", header = T, sep = " ", dec = ".", 
                          row.names = NULL)
 COPAClayton = COPAClayton[,-1]
-eps         = read.table("COPts1eps.dat")
-COPsigma.t  = read.table("COPts1sigmat.dat")
-COPparams   = read.table("COPts1parameters.dat", header = T, 
+eps         = read.table("COPts1eps")
+COPsigma.t  = read.table("COPts1sigmat")
+COPparams   = read.table("COPts1parameters", header = T, 
   row.names = c("DAX", "DAXsigma", "DJ", "DJsigma", "NIKKEI", "NIKKEIsigma"))
 COPparams   = COPparams[-1]
 
