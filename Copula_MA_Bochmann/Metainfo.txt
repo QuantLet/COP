@@ -8,7 +8,7 @@ Keywords: copula, regime-switching, factor model, time-varying dependence, high-
 
 Author: Paul Bochmann
 
-Submitted: 
+Submitted: 29.11.2016
 
 Input: 
 - T: number of observations
