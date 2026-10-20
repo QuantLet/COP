@@ -9,7 +9,7 @@ Name of Quantlet: COPdensitydaxreturn
 
 Published in: Copulae
 
-Description: COPdensitydaxreturn gives the DAX histogram compared to the 3
+Description: COPdensitydaxreturn gives the DAX histogram compared to the 3 densities including the standard normal density in red, the Student-t density in green with degrees of freedom equal to 5 and the estimated Epanechnikov kernel density in blue with the bandwidth computed following that 0.9 times the minimum of the standard deviation and the interquartile range divided by 1.34 times the sample size to the negative one-fifth power, i.e. Silverman''s rule-of-thumb.
 
 Keywords: Epanechnikov, density, histogram, normal, student, kernel
 
@@ -21,7 +21,7 @@ Datafile: COPdax140624.csv
 
 Submitted: Mon, November 03 2014 by Felix Jung
 
-Output: COPdensitydaxreturn gives the DAX histogram compared to the 3
+Output: COPdensitydaxreturn gives the DAX histogram compared to the 3 theoretical densities including normal, Student-t and Epanechnikov.
 
 ```
 <div align="center">
