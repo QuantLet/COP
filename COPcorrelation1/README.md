@@ -9,7 +9,7 @@ Name of Quantlet: COPcorrelation1
 
 Published in: Copulae
 
-Description: COPcorrelation1 gives a plot of 100 scatter points generated respectively by
+Description: COPcorrelation1 gives a plot of 100 scatter points generated respectively by uniform and normal distribution. Also the three different correlations are computed, the correlations of Pearson, Kendall and Spearman.
 
 Keywords: scatterplot, correlation, Spearman, Pearson, Kendall
 
@@ -19,7 +19,7 @@ Author: Ostap Okhrin, Yafei Xu
 
 Submitted: Mon, October 20 2014 by Felix Jung
 
-Output: The quantlet returns time series plots of 3 companies'' returns, APL, HP and MSFT,
+Output: The quantlet returns time series plots of 3 companies'' returns, APL, HP and MSFT, with window 04.01.2006 - 04.11.2009.
 
 ```
 <div align="center">
