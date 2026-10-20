@@ -9,7 +9,7 @@ Name of Quantlet: COPlcpexres
 
 Published in: Copulae
 
-Description: COPlcpexres computes from the results of fitting a Garch(1,1) model to daily
+Description: COPlcpexres computes from the results of fitting a Garch(1,1) model to daily returns, see COPlcpexgarch, when which copula fits the data best. Used are Gumbel and Clayton copula.
 
 Keywords: HAC, clayton, gumbel, garch, daily returns
 
@@ -21,7 +21,7 @@ Datafile: COPclayton.dat, COPgumbel.dat, COPts2dates.dat, COPts2feps.dat
 
 Submitted: Tue, October 07 2014 by Felix Jung
 
-Output: The Quantlet returns plots which show the structure, the taus on the intervals of
+Output: The Quantlet returns plots which show the structure, the taus on the intervals of homogeneity, the intervals of homogeneity and the ML on these intervals.
 
 ```
 <div align="center">
