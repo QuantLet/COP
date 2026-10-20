@@ -9,7 +9,7 @@ Name of Quantlet: COPlcpinres
 
 Published in: Copulae
 
-Description: Computes from the results of fitting a Aparch(1,1) model to daily returns,
+Description: Computes from the results of fitting a Aparch(1,1) model to daily returns, see COPlcpinaparch, when which copula fits the data best. Used are Gumbel and Clayton copula.
 
 Keywords: HAC, clayton, gumbel, aparch, daily, returns, copula, plot
 
