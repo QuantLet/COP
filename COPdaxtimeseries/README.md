@@ -9,7 +9,7 @@ Name of Quantlet: COPdaxtimeseries
 
 Published in: Copulae
 
-Description: COPdaxtimeseries gives a time series plot of the DAX index
+Description: COPdaxtimeseries gives a time series plot of the DAX index levels with the window from 1986-01-02 to 2008-12-30.
 
 Keywords: plot, time-series, DAX, DAX index, time-series plot
 
